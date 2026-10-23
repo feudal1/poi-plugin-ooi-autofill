@@ -1,0 +1,33 @@
+{
+  "name": "poi-plugin-ooi-autofill",
+  "version": "1.0.0",
+  "description": "Record an OOI login locally and fill it on the matching OOI login page.",
+  "main": "index.es",
+  "license": "MIT",
+  "author": {
+    "name": "feudal1",
+    "url": "https://github.com/feudal1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feudal1/poi-plugin-ooi-autofill.git"
+  },
+  "keywords": [
+    "poi-plugin",
+    "poi",
+    "kancolle",
+    "ooi"
+  ],
+  "files": [
+    "index.es",
+    "ooi-form.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "poiPlugin": {
+    "title": "OOI 自动填入",
+    "description": "在本地记录 OOI 登录账号和密码，打开匹配的 OOI 登录页时自动填入。",
+    "icon": "fa/key",
+    "priority": 50
+  }
+}
